@@ -9,6 +9,11 @@ body {
     --bs-danger-rgb: 240, 70, 111;
 }
 
+.my-container {
+    width: 80%;
+    margin: auto;
+}
+
 .my-col {
     flex: 0 0 calc(100% / 7);
     max-width: calc(100% / 7);
