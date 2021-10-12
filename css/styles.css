@@ -1,3 +1,19 @@
 body {
     background-color: #083B4C;
 }
+
+:root {
+    --bs-primary-rgb: 19, 137, 178;
+    --bs-success-rgb: 11, 214, 161;
+    --bs-warning-rgb: 255, 209, 102;
+    --bs-danger-rgb: 240, 70, 111;
+}
+
+.my-col {
+    flex: 0 0 calc(100% / 7);
+    max-width: calc(100% / 7);
+}
+
+.my-fs {
+    font-size: 120px;
+}
